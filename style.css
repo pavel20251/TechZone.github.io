@@ -1,0 +1,98 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+/*Расположение меню*/
+.Top_menu li{   
+    margin-right: 90px;
+    display: inline-block;
+    vertical-align: middle; 
+}
+/*расположение логотипа, отступы между блоками горизонтального меню*/
+.logo, .Top_menu{
+    display: inline-block;
+    vertical-align: middle;
+    margin-right: 10%;
+}
+/*Шрифт меню,Размер шрифта меню, цвет текста меню, расположение*/
+.Top_menu a{
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 23px;
+    color: white;
+    text-decoration:none ;
+    vertical-align: middle; 
+}
+/*изменение цвета при наведении курсора на текст меню*/
+.Top_menu a:hover{
+    color:red
+}
+.Top_menu_undegraund input{
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #ffffff;
+    color: white;
+    background-image: url(Поиск.png); 
+    background-position: 800px 3px; 
+    background-repeat: no-repeat; 
+}
+input::placeholder {
+    color: white;
+    
+}
+.categorii h1{
+    color: white;
+    margin-top: 2%;
+}
+
+
+
+
+
+/*Адаптивность под планшет*/
+@media screen and (max-width:1536px) and (max-height:2048px){
+    .logo{
+        margin-left: -5%;
+    }
+    .Top_menu{
+        margin-left: 24%;
+        margin-top: -6%;
+    }
+    .Top_menu li{
+        margin-right: 90px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .Top_menu_undegraund {
+        margin-left: -2%;
+        width: 100%;
+    }
+    .baner{
+        width: 97%;
+    }
+    
+}
+
+
+/*Адаптивность под телефон*/
+@media screen and (max-width:1080px) and (max-height:2340px){/*Продолжить делать адаптивность под телефон*/
+    .logo{
+        margin-left: -7%;
+    }
+    .Top_menu{
+        margin-left: 24%;
+        margin-top: -9%;
+    }
+    .Top_menu li{
+        margin-right: 45px;
+        display: inline-block;
+        vertical-align: middle;
+    }
+    .Top_menu_undegraund {
+        margin-left: -2%;
+        width: 100%;
+    }
+    .baner{
+        width: 97%;
+    }
+    
+}
